@@ -1,0 +1,88 @@
+.navbar {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  background-color: #5257de;
+  color: white;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon:first-child {
+  margin-left: 0;
+}
+
+.counter {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 12px;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+  padding: 5px;
+
+  background-color: red;
+}
+
+.notifications {
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 300;
+
+  padding: 10px;
+
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
+}
+
+.notification {
+  font-size: 14px;
+  padding: 5px;
+
+  list-style: none;
+}
+
+.nButton {
+  width: 80%;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+}

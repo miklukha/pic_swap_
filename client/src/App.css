@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container {
+  width: 50vh;
+  border-radius: 5px;
+  border: 0.5px solid #5257de;
+}
+
+.login {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 60%;
+  padding: 10px;
+  background-color: #5257de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e41a3;
+}
+
+.addBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid #5257de;
+  color: #5257de;
+  background-color: transparent;
+}
+
+.addBtn:hover {
+  color: white;
+}
+
+.modalInput {
+  width: 340px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.username {
+  font-weight: bold;
+  color: #5257de;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
